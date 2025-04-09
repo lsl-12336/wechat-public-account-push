@@ -7,15 +7,14 @@
  */
 const USER_CONFIG = {
 
-  // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  // // 使用微信测试号：公众号APP_ID
+  // APP_ID: '',
 
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
-  // 请将以下代码按照图示粘贴到对应位置
+  // // 使用微信测试号：公众号APP_SECRET
+  // APP_SECRET: '',
+  // // 请将以下代码按照图示粘贴到对应位置
   USE_PASSAGE: 'push-deer',
-  PROVINCE: '广东',
-  CITY: '惠州',
+
 
   USERS: [
     {
@@ -25,6 +24,8 @@ const USER_CONFIG = {
       id: 'PDU34627T70mbuAyO59JbiguDU7beZJXQ3UpVXbRi',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
+      PROVINCE: '北京',
+      CITY: '北京',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-17',
       festivals: [
