@@ -14,8 +14,8 @@ const USER_CONFIG = {
   APP_SECRET: '',
   // 请将以下代码按照图示粘贴到对应位置
   USE_PASSAGE: 'push-deer',
-  PROVINCE: '北京',
-  CITY: '北京',
+  PROVINCE: '广东',
+  CITY: '惠州',
 
   USERS: [
     {
