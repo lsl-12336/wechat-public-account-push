@@ -34,7 +34,6 @@ const TEMPLATE_CONFIG = [
       
     //   {{poetry_title.DATA}} {{poetry_content.DATA}}
     // `
-       ---
       城市：{{city.DATA}}
       天气☁️：{{weather.DATA}}
       温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
@@ -47,7 +46,6 @@ const TEMPLATE_CONFIG = [
       中文：{{note_ch.DATA}}
       English：{{note_en.DATA}}
       和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}
-     ---
     `
   },
   {
