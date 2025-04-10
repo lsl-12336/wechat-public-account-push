@@ -5,6 +5,7 @@ const TEMPLATE_CONFIG = [
     title: '宝贝, 早上好，松渌来了啊',
     desc: `
       **{{date.DATA}}**
+      
       🗓️城市：{{city.DATA}}
       
       天气☁️：{{weather.DATA}}
@@ -17,12 +18,14 @@ const TEMPLATE_CONFIG = [
       
       温馨提示：{{notice.DATA}}
       
-      值得纪念：{{birthday_message.DATA}}
+      今天是我们认识的第{{love_day.DATA}}天
+      
+      {{birthday_message.DATA}}
       
       💗：{{earthy_love_words.DATA}}
       
       每日一句😋
-      
+       
       中文：{{note_ch.DATA}}
       
       English：{{note_en.DATA}}
