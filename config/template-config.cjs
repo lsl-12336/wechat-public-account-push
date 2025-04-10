@@ -34,7 +34,6 @@ const TEMPLATE_CONFIG = [
       
     //   {{poetry_title.DATA}} {{poetry_content.DATA}}
     // `
-  {{date.DATA}}
   城市：{{city.DATA}}
   天气☁️：{{weather.DATA}}
   温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
