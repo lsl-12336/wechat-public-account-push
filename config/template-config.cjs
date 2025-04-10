@@ -7,9 +7,9 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      **{{date.DATA}}**
+      ### **{{date.DATA}}**
       
-       {{holidaytts.DATA}}
+      ### {{holidaytts.DATA}}
        
       ---
       
@@ -23,21 +23,21 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们认识的第**{{love_day.DATA}}**天
+      ### 今天是我们认识的第**{{love_day.DATA}}**天
       
-      {{birthday_message.DATA}}
+      ### {{birthday_message.DATA}}
       
-      💗：{{earthy_love_words.DATA}}
+      ### 💗：{{earthy_love_words.DATA}}
 
       ---
       
-      每日一句😋
+      ### 每日一句😋
        
-      {{note_ch.DATA}}/{{note_en.DATA}}
+      - {{note_ch.DATA}}/{{note_en.DATA}}
       
-      {{moment_copyrighting.DATA}}
+      - {{moment_copyrighting.DATA}}
       
-      {poetry_title.DATA}}：{{poetry_content.DATA}}
+      - {{poetry_title.DATA}}：{{poetry_content.DATA}}
       
       ---
             
