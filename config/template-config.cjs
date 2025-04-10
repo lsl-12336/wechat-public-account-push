@@ -4,8 +4,10 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '宝贝, 早上好，松渌来了啊',
     desc: `
+      ---
       **{{date.DATA}}**
-      
+      {{holidaytts.DATA}}
+      ---
       🗓️城市：{{city.DATA}}
       
       天气☁️：{{weather.DATA}}
@@ -31,7 +33,7 @@ const TEMPLATE_CONFIG = [
       // 和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}
       {poetry_title.DATA}} ：{{poetry_content.DATA}}
       
-      下个休息日：{{holidaytts.DATA}}
+      // 下个休息日：{{holidaytts.DATA}}
       
       ---
             
