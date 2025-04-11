@@ -7,10 +7,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       ### 📆**{{date.DATA}}**
-      - 🌟{{holidaytts_{0}.DATA)}}
-      - 🌟{{holidaytts_{1}.DATA)}}
-       
-      ---
+      - 🌟{{holidaytts.DATA)}}
       
       ### 🏙️ 城市：**{{city.DATA}}**
       
@@ -20,7 +17,9 @@ const TEMPLATE_CONFIG = [
       
       - 🌬️ **风向**：{{wind_direction.DATA}} | 风级：{{wind_scale.DATA}}
       
-      ### 温馨提示：{{notice.DATA}}
+      ### 温馨提示：
+       - {{ganmao.DATA}}
+       - {{notice.DATA}}
       
       ---
       ### 🫶 我们的小纪念
@@ -45,7 +44,7 @@ const TEMPLATE_CONFIG = [
       ---
       ### 🔮
       
-      {{comprehensive_horoscope.DATA}}
+      - {{comprehensive_horoscope.DATA}}
     `
 
   },
