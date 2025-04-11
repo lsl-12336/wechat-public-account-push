@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '## 🌅 早安宝贝，松渌来了！',
+    title: '## 早安宝贝，松渌来了！',
     desc: `
       
       ---
@@ -21,13 +21,11 @@ const TEMPLATE_CONFIG = [
       
       ---
       ### 🫶 我们的小纪念
-       - 📅 认识的第：**{{love_day.DATA}}**天
+      >📅 认识的第：**{{love_day.DATA}}**天
        
-       - 💞 距离「周年纪念日」还有：**{{marry_day.DATA}}天** 
-       
-       - 🎂 {{birthday_message.DATA}}
+      > 🎂 {{birthday_message.DATA}}
       
->💗：{{earthy_love_words.DATA}}
+      >💗：{{earthy_love_words.DATA}}
 
 
       ---      
