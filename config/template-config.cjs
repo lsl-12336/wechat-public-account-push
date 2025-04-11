@@ -7,7 +7,8 @@ const TEMPLATE_CONFIG = [
       
       ---
       ### 📆**{{date.DATA}}**
-      - 🌟{{holidaytts.DATA}}
+      - 🌟{{holidaytts_{0}.DATA)}}
+      - 🌟{{holidaytts_{1}.DATA)}}
        
       ---
       
