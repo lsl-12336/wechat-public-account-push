@@ -48,7 +48,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // 周年纪念日
-        { keyword: 'anniversary_day', date: '2024-04-12' },
+        { keyword: 'marry_day', date: '2024-04-12' },
         // {type: '节日', name: '周年纪念日', year: '2024', date: '04-12'},
       ],
     },
