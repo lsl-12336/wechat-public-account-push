@@ -2,14 +2,12 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '# 🌅 早安宝贝，松渌来了！',
+    title: '## 🌅 早安宝贝，松渌来了！',
     desc: `
       
-      
-      ## 📆**{{date.DATA}}**
       ---
-      
-      ### 🌟{{holidaytts.DATA}}
+      ### 📆**{{date.DATA}}**
+      - 🌟{{holidaytts.DATA}}
        
       ---
       
