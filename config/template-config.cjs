@@ -21,11 +21,11 @@ const TEMPLATE_CONFIG = [
       
       ---
       ### 🫶 我们的小纪念
-      >📅 认识的第：**{{love_day.DATA}}**天
+      📅 认识的第：**{{love_day.DATA}}**天
        
-      > 🎂 {{birthday_message.DATA}}
+      🎂 {{birthday_message.DATA}}
       
-      >💗：{{earthy_love_words.DATA}}
+      💗：{{earthy_love_words.DATA}}
 
 
       ---      
