@@ -37,9 +37,9 @@ const USER_CONFIG = {
           type: '生日', name: '宝贝', year: '2000', date: '05-17',
         },
         // 
-        // {
-        //   type: '节日', name: '周年纪念日', year: '2024', date: '04-12',
-        // },
+        {
+          type: '节日', name: '周年纪念日', year: '2024', date: '04-12',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -48,7 +48,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // 周年纪念日
-        { keyword: 'marry_day', date: '2024-04-12' },
+        // { keyword: 'marry_day', date: '2024-04-12' },
         // {type: '节日', name: '周年纪念日', year: '2024', date: '04-12'},
       ],
     },
