@@ -7,9 +7,8 @@ const TEMPLATE_CONFIG = [
       
       ---
       ### 📆 **{{date.DATA}}**
-      - 🌟 {{holidaytts_{0}.DATA}}
-      - 🌟 {{holidaytts_{1}.DATA}}
-      
+      - 🌟 {{holidaytts.DATA}}
+      ---
       ### 🏙️ 城市：**{{city.DATA}}**
       
       - ☁️ **天气**：{{weather.DATA}}
@@ -20,7 +19,7 @@ const TEMPLATE_CONFIG = [
       
       ### 温馨提示：{{notice.DATA}}
       
-
+      ---
       ### 🫶 我们的小纪念
        - 📅 认识的第：**{{love_day.DATA}}**天
        
@@ -31,7 +30,7 @@ const TEMPLATE_CONFIG = [
 >💗：{{earthy_love_words.DATA}}
 
 
-      
+      ---      
       ### 每日一句😋
        
       - 💪 **{{note_ch.DATA}}/{{note_en.DATA}}**
